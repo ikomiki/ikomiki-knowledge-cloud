@@ -1,3 +1,13 @@
+<a name="0.0.2"></a>
+## 0.0.2 (2020-01-19)
+
+
+### Features
+
+* ライセンス(MIT)の追加 ([6d102f1](https://github.com/ikomiki/ikomiki-knowledge-cloud/commit/6d102f1))
+
+
+
 <a name="0.0.1"></a>
 ## 0.0.1 (2020-01-19)
 
