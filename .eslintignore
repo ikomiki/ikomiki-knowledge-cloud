@@ -1,0 +1,68 @@
+# compiled output
+dist
+tmp
+out-tsc
+
+# package directories
+node_modules
+jspm_packages
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+.sass-cache
+connect.lock
+coverage
+libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Project Files
+deploy
+build
+.packages
+.env
+
+# Serverless directories
+.serverless
+**/.serverless
+
+# Generated directories
+lambda-functions/download-ogp/income
+
+# build locks
+package-lock.json
+yarn.lock
+
+# locally uploaded files
+koshien-site/local-data/**/*.json
+koshien-site/local-data/**/*.png
+koshien-site/local-data/**/*.jpg
+
+# additional folders
+koshien-cms/lib-js/*
+koshien-cms/e2e/*
+koshien-site/lib-js/*
+koshien-site/e2e/*
+koshien-site/src/assets/**/*.js
