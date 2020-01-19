@@ -1,0 +1,4 @@
+koshien-site/local-data/**/*.json
+tsconfig*.json
+serverless.yml
+shared/config/**/*.json
