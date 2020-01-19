@@ -69,6 +69,14 @@
     "tslint": "~5.18.0",
     "typescript": "~3.6.4"
   },
+  "homepage": "https://github.com/ikomiki/ikomiki-knowledge-cloud",
+  "bugs": {
+    "url": "https://github.com/ikomiki/ikomiki-knowledge-cloud/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikomiki/ikomiki-knowledge-cloud.git"
+  },
   "license": "MIT",
   "husky": {
     "hooks": {
