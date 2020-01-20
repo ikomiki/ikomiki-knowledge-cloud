@@ -29,9 +29,29 @@ module.exports = {
       { blankLine: 'never', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
       { blankLine: 'always', prev: '*', next: 'return' },
     ],
-    'lines-between-class-members': ['warn', 'always', { exceptAfterSingleLine: true }],
+    'lines-between-class-members': [
+      'warn',
+      'always',
+      { exceptAfterSingleLine: true },
+    ],
     'spaced-comment': ['warn', 'always', { exceptions: ['-', '*'] }],
+    '@typescript-eslint/no-empty-function': [
+      'error',
+      { 'allow': ['constructors', 'arrowFunctions'] }
+    ],
     'simple-import-sort/sort': 'error',
     'unused-imports/no-unused-imports-ts': 'error',
+    "@typescript-eslint/explicit-function-return-type": "off",
   },
+  'overrides': [
+    {
+      "files": ["*.ts"],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": [
+          "error",
+          { allowExpressions: true }
+        ]
+      }
+    }
+  ]
 };
