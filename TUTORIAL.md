@@ -36,7 +36,13 @@ ng g scullyio/init:post --name="This is my post"
 ng g m blog-list --route blog-list --module app-routing
 
 ng g m shared
-ng g m shared/header --module shared
+ng g m shared/header --module shared && ng g c shared/header
+
+ng g m shared/side-bar --module shared && ng g c shared/side-bar
+ng g m shared/blog-cards --module shared && ng g c shared/blog-cards
+ng g m shared/head-tabs --module shared && ng g c shared/head-tabs
+ng g s shared/blog
+
 ```
 
 ```bash
